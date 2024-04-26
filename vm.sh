@@ -11,3 +11,8 @@ mkdir models
 cd models
 # Download the checkpoint from here https://drive.google.com/file/d/1aVbfW7nkCSYx99_vCRyP1sOlQiWVSnAl/view
 cd ..
+git clone https://github.com/karthikRavichandran/multimodal_685.git
+cp multimodal_685/minigptv2_finetune_llama3.yml ./
+cp multimodal_685/requ.txt ./
+pip install -r requ.txt
+python3 train.py --cfg-path minigptv2_finetune_llama3.yml
