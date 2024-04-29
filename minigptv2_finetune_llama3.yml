@@ -277,7 +277,7 @@ run:
   iters_per_epoch: 1000
 
   seed: 42
-  output_dir: "/path/to/save_checkpoint"
+  output_dir: "models/save_checkpoint"
 
   amp: True
   resume_ckpt_path: null
