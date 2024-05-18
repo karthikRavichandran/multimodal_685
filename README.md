@@ -1,5 +1,15 @@
+# MiniGPT-v2
+
+- You can run the llava code via ollama using `python llava_in_local.py`
+- To run MiniGPT-v2 , follow `vm.sh` code.
+- You need to download llama-3 files and checkpoints from respective repo/locations
+- In Unity server, you can use requ.txt to install the dependecies.
+- after training, use `eval.ipynb` to evaluate you model
+- For full runnable code that uses Llama3 changes, refer: `https://github.com/hchlhwang/SafeStreetCrossing`
+
 # Yolov8 and V9 TensorRT
 Yolo_ Model compare with inference regarding better performance and predictions.
+
 
 
 YoloV8_Model - Single View
